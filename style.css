@@ -1,0 +1,46 @@
+body{
+    background-image: url(banner1.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+    
+
+
+
+}
+.site{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto 1r 1fr;
+    grid-template-areas: 
+    "tittle tittle tittle"
+    "main main head"
+    "main sidebar footer";
+    background-image:url(banner3.jpg);
+    background-size: cover;
+
+}
+.masthead{
+    grid-area: header;
+    background-color: blue;
+}
+.page-tittle{
+    grid-area: tittle;
+    background-color: black;
+    font-size: x-large;
+    font-style: italic;
+}
+.page-heading{
+   grid-area: h1;
+
+}
+.main-content{
+    grid-area: main;
+    background-color: yellowgreen;
+}
+p1{
+    font-size: medium;
+    background-size: contain;
+}
+
